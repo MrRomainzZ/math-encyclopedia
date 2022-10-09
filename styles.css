@@ -1,3 +1,10 @@
+:root {
+	--bg1: #F4DFBA;
+	--bg2: #EEC373;
+	--add1: #CA965C;
+	--add2: #876445;
+}
+
 #info-row {
 	width: 85px;
 
@@ -16,8 +23,8 @@
 	height: 40px;
 	padding: 4px;
 
-	background-color: #F4DFBA;
-	border: 2px solid #CA965C;
+	background-color: var(--bg1);
+	border: 2px solid var(--add1);
 	border-radius: 4px;
 	
 	box-sizing: border-box;
@@ -29,6 +36,15 @@
 }
 
 .info:hover {
-	background-color: #EEC373;
-	border: 2px solid #876445;
+	background-color: var(--bg2);
+	border: 2px solid var(--add2);
+}
+
+a {
+	display: flex;
+}
+
+div img {
+	object-fit: cover;
+	height: 100%;
 }
