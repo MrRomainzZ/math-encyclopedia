@@ -39,7 +39,7 @@ body {
 }
 #info-panel {
 	box-sizing: border-box;
-	width: 20vw;
+	width: calc(10vw + 200px);
 	/*height: calc(50vh - 10px);*/
 	height: auto;
 
