@@ -5,10 +5,14 @@
 	--add2: #876445;
 }
 
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 body {
 	background-color: #e6e6e6;
 
-	font-family: "Fira Code Retina";
+	font-family: 'Fira Code', monospace;
+	font-weight: 500;
+	font-stretch: ultra-condensed;
 
 	margin: 0px;
 	padding: 0px;
@@ -35,7 +39,7 @@ body {
 }
 #info-panel {
 	box-sizing: border-box;
-	width: 400px;
+	width: 20vw;
 	/*height: calc(50vh - 10px);*/
 	height: auto;
 
